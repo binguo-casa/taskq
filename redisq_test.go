@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/vmihailenco/taskq/v3"
-	"github.com/vmihailenco/taskq/v3/redisq"
+	"github.com/binguo-casa/taskq/v3"
+	"github.com/binguo-casa/taskq/v3/redisq"
 )
 
 func redisqFactory() taskq.Factory {

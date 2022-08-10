@@ -16,9 +16,9 @@ import (
 
 	"github.com/bsm/redislock"
 
-	"github.com/vmihailenco/taskq/v3"
-	"github.com/vmihailenco/taskq/v3/internal"
-	"github.com/vmihailenco/taskq/v3/internal/msgutil"
+	"github.com/binguo-casa/taskq/v3"
+	"github.com/binguo-casa/taskq/v3/internal"
+	"github.com/binguo-casa/taskq/v3/internal/msgutil"
 )
 
 type RedisStreamClient interface {

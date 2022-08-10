@@ -5,10 +5,10 @@ import (
 	"go.opentelemetry.io/otel/codes"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/vmihailenco/taskq/v3"
+	"github.com/binguo-casa/taskq/v3"
 )
 
-var tracer = otel.Tracer("github.com/vmihailenco/taskq")
+var tracer = otel.Tracer("github.com/binguo-casa/taskq")
 
 type OpenTelemetryHook struct{}
 

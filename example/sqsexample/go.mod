@@ -1,11 +1,11 @@
-module github.com/vmihailenco/taskq/example/sqsexample
+module github.com/binguo-casa/taskq/example/sqsexample
 
 go 1.17
 
 require (
 	github.com/aws/aws-sdk-go v1.43.45
 	github.com/go-redis/redis/v8 v8.11.5
-	github.com/vmihailenco/taskq/v3 v3.2.8
+	github.com/binguo-casa/taskq/v3 v3.2.8
 )
 
 require (
@@ -22,4 +22,4 @@ require (
 	github.com/vmihailenco/tagparser/v2 v2.0.0 // indirect
 )
 
-replace github.com/vmihailenco/taskq/v3 => ../..
+replace github.com/binguo-casa/taskq/v3 => ../..

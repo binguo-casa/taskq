@@ -5,7 +5,7 @@ import (
 	"flag"
 	"log"
 
-	"github.com/vmihailenco/taskq/example/redisexample"
+	"github.com/binguo-casa/taskq/example/redisexample"
 )
 
 func main() {

@@ -8,7 +8,7 @@ import (
 
 	"github.com/go-redis/redis/v8"
 
-	"github.com/vmihailenco/taskq/v3/internal"
+	"github.com/binguo-casa/taskq/v3/internal"
 )
 
 func init() {

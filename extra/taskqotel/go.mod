@@ -1,11 +1,11 @@
-module github.com/vmihailenco/taskq/extra/taskqotel/v3
+module github.com/binguo-casa/taskq/extra/taskqotel/v3
 
 go 1.17
 
-replace github.com/vmihailenco/taskq/v3 => ../..
+replace github.com/binguo-casa/taskq/v3 => ../..
 
 require (
-	github.com/vmihailenco/taskq/v3 v3.2.8
+	github.com/binguo-casa/taskq/v3 v3.2.8
 	go.opentelemetry.io/otel v1.6.3
 	go.opentelemetry.io/otel/trace v1.6.3
 
